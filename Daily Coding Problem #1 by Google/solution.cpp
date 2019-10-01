@@ -35,10 +35,7 @@ int main()
     
     //There must be atleast two elements in the vector for comparison purposes
     if(V.size()>2)
-    {
-        //Sorting is just to increase the probability of the elements that we are looking for to be close to each other
-        sort(V.begin(),V.end());
-        
+    {   
         //Indicate as true if both elements are present in the vector
         bool found=false;
         
